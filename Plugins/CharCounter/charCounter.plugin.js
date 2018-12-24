@@ -97,10 +97,6 @@ var CharCounter = (function (){
       top: -1.1em;
       z-index: 1;
     }
-    .message-1PNnaP #charcounter {
-      right: unset;
-      left: 5px;
-    }
     #charcounter.over2k {
       color: rgba(240,71,71,.8);
     }
