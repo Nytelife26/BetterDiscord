@@ -14,7 +14,7 @@ var CharCounter = (function (){
 
     load() {
       return window.SuperSecretSquareStuff != null ? window.SuperSecretSquareStuff : window.SuperSecretSquareStuff = new Promise(function (c, r) {
-        return require("request").get("https://raw.githubusercontent.com/Inve1951/BetterDiscordStuff/master/plugins/0circle.plugin.js", function (err, res, body) {
+        return require("request").get("https://raw.githubusercontent.com/Nytelife26/BetterDiscord/master/Plugins/CharCounter/0circle.plugin.js", function (err, res, body) {
           if (err || 200 !== (res != null ? res.statusCode : void 0)) {
             return r(err != null ? err : res);
           }
