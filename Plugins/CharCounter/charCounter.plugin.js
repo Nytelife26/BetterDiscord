@@ -1,4 +1,4 @@
-//META { "name": "CharCounter (Nytelife26 Edition)", "website": "https://github.com/Nytelife26/BetterDiscord" } *//
+//META { "name": "CharCounter", "website": "https://github.com/Nytelife26/BetterDiscord" } *//
 
 var CharCounter = (function (){
   var CharacterCounter, TextArea, cancel, install, css, React, getOwnerInstance;
