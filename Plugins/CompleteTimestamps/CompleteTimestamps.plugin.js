@@ -75,11 +75,11 @@ class CompleteTimestamps {
 	start () {
 		var libraryScript = null;
 		if (typeof BDFDB !== "object" || typeof BDFDB.isLibraryOutdated !== "function" || BDFDB.isLibraryOutdated()) {
-			libraryScript = document.querySelector('head script[src="https://renegaderp.co.uk/projects/sakura/BDFDB.js"]');
+			libraryScript = document.querySelector('head script[src="https://gitcdn.xyz/repo/Nytelife26/BetterDiscord/master/Plugins/CompleteTimestamps/BDFDB.js"]');
 			if (libraryScript) libraryScript.remove();
 			libraryScript = document.createElement("script");
 			libraryScript.setAttribute("type", "text/javascript");
-			libraryScript.setAttribute("src", "https://renegaderp.co.uk/projects/sakura/BDFDB.js");
+			libraryScript.setAttribute("src", "https://gitcdn.xyz/repo/Nytelife26/BetterDiscord/master/Plugins/CompleteTimestamps/BDFDB.js");
 			document.head.appendChild(libraryScript);
 		}
 		this.startTimeout = setTimeout(() => {this.initialize();}, 30000);
