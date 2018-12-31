@@ -8,7 +8,7 @@ class CompleteTimestamps {
 			
 		this.defaults = {
 			settings: {
-                // Disabled as appears to be not currently implemented
+				// Disabled as appears to be not currently implemented
 				// showInChat:		{value:true, 	description:"Replace chat timestamp with complete timestamp:"},
 				showOnHover:	{value:false, 	description:"Also show timestamp when you hover over a message:"},
 				changeForEdit:	{value:false, 	description:"Change the time for the edited time tooltips:"},
@@ -294,7 +294,7 @@ class CompleteTimestamps {
 		var info = instance.return.stateNode.props.messages;
 		return info && pos > -1 ? info[pos] : null;
 	}
-    
+	
 	getTimestamp (languageid, time) {
 		let timeobj = time ? time : new Date();
 		if (typeof time == "string") timeobj = new Date(time);
